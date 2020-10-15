@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Play.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.002
+anchor_bottom = 0.995
+margin_left = 500.0
+margin_top = 300.0
+margin_right = -426.048
+margin_bottom = -247.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="MarginContainer"]
+margin_right = 100.0
+margin_bottom = 50.0
+text = "Play"
+script = ExtResource( 1 )
